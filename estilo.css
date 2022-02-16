@@ -94,14 +94,12 @@ body.fotos #navegacao a#fotos{
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 195px;
-	background: blue;
 }
 
 #secundario{
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 15px;
-	background: gold;
 }
 
 #duas-colunas #primario{
@@ -149,6 +147,16 @@ h2{
 	margin-top: 5px;
 }
 
+.destaque a{
+	text-decoration: none;
+	color: darkred;
+}
+
+.entrevista a{
+	text-decoration: none;
+	color: darkred;
+}
+
 /*formatação menus laterais*/
 
 #lateral ul a{
@@ -187,3 +195,63 @@ input.submit{
 	background-color: #b10333;
 	border: 2px solid #875029;
 }
+
+/* formatação de imagens */
+
+img.imagem-principal{
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+/*formatação de lista de notícias */
+
+#lista-noticias li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+
+#lista-noticias li a img{
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a{
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+#lista-noticias li a h3{
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+	font-size: 0.7em;
+}
+
+#lista-noticias li:hover{
+	background: #eee;
+	cursor: pointer;
+}
+
+/*formatação de cabeçalhos*/
+
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3{
+	background: #b10333;
+	color: #fff;	
+}
+
+.entrevista h3{
+	background: #de003e;
+	color: #fff;	
+}
+
