@@ -5,8 +5,10 @@
 	<title>Brasil</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
-<body class="brasil">
+<body id="duas-colunas" class="brasil">
 	<div id="principal">
+
+		<!--inicio topo-->
 		<div id="topo">
 			<h1 class="logo">Notícias Cidade</h1>
 			<ul id="navegacao">
@@ -18,10 +20,61 @@
 				<li><a id="ciencia" href="ciencia.html">Ciência</a></li>
 				<li><a id="fotos" href="fotos.html">Fotos</a></li>
 			</ul>
+		</div><!--final topo-->
+
+		<!--inicio conteudo-->
+		<div id="conteudo">
+			<!--inicio primario-->
+			<div id="primario">Primário
+
+			</div><!--final primario-->
+
+
+		<!--inicio lateral-->
+			<div id="lateral">
+				<!--inicio caixa-->
+				<div class="caixa">
+					<h2>Entrevistas</h2>
+					<div class="caixa-conteudo">
+						<ul>
+							<li><a href="">Carlos Alberto</a></li>
+							<li><a href="">Luiz Penha</a></li>
+							<li><a href="">Santiago da Luz</a></li>
+							<li><a href="">Pedro Aurélio</a></li>
+							<li><a href="">Marcelo Cunha</a></li>
+							<li><a href="">André da Silva</a></li>
+							<li><a href="">Fernando Pessoa</a></li>
+							<li><a href="">Mateus Campos</a></li>	
+						</ul>
+					</div>
+				</div><!--final caixa-->
+
+				<!--inicio caixa-->
+				<div class="caixa">
+					<h2>News</h2>
+					<div class="caixa-conteudo">
+						<form>
+							<div>
+								<label for="email">E-mail:</label>
+								<input type="text" name="email" id="email" placeholder="Digite seu e-mail aqui">
+							</div>
+							<div>
+								<input class="submit" type="submit" value="Cadastrar">
+							</div>
+						</form>
+					</div>
+				</div><!--final caixa-->
+			</div><!--final lateral-->
+		</div><!--final conteudo-->
+
+	</div> <!--final bloco principal-->
+
+	<!--inicio rodape-->
+	<div id="container-rodape">
+		<div id="rodape">
+			&copy; Copyright 2010-2022 Notícias Cidade
 		</div>
-	</div>
-
-
+	</div><!--final rodape-->
 
 </body>
 </html>
