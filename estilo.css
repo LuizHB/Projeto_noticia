@@ -229,6 +229,7 @@ img.imagem-principal{
 
 #lista-noticias li a p{
 	font-size: 0.7em;
+	color: darkblue;
 }
 
 #lista-noticias li:hover{
